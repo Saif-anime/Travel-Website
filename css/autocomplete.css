@@ -1,0 +1,46 @@
+
+        /*AutoComplete flyout */
+        .AutoExtender
+        {
+            font-family: Verdana, Helvetica, sans-serif;
+            border: solid 1px #373737;
+            margin: 0px;
+            padding: 2px;
+            height: 100px;
+            overflow:auto;
+             z-index:9999999999 !important;font-size: 13px !important;
+           background-color: White;
+            overflow-x:hidden;
+        }
+        
+        
+        .AutoExtenderList
+        {
+            border-bottom: dotted 1px #373737;
+            cursor: pointer;
+            line-height: 15px;
+            color: Maroon;padding: 5px; 
+            margin-left: 0px;
+
+        }
+        
+        .AutoExtenderHighlight
+        {
+           background-color:#373737; 
+            color: #fff;
+            cursor: pointer;
+            line-height: 15px;
+            padding: 5px;
+            margin-left: 0px;
+            border-bottom: solid 1px #ccc;
+
+        }
+  
+       /* #divwidth
+        {
+          width: 250px;
+        }
+        #divwidth div
+       {
+        width: 250px;
+       }*/
